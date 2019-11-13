@@ -1057,6 +1057,159 @@ boolean
             </td>
         </tr>
     
+
+        <tr>
+            
+                <td><span class="signature">hasScriptedBlendshapes</span></td>
+            
+
+            <td  class="type">
+            
+                
+boolean
+
+
+            
+            </td>
+
+            
+
+            <td class="description last">
+                
+                    
+
+
+    <p><code>true</code> if blendshapes are controlled by scripted actions, 
+    otherwise <code>false</code>. Set this to true before using the <a href="MyAvatar.html#.setBlendshape">MyAvatar.setBlendshape</a> method, and set back 
+    to false after you no longer want scripted control over the blendshapes.
+    </p>
+    <p>NOTE: This property will automatically be set to true if the Controller system has valid facial blendshape 
+    actions.</p>
+
+
+                
+                
+                        
+                            <p><b>Default Value:</b> false </p>
+                        
+                
+                
+            </td>
+        </tr>
+    
+
+        <tr>
+            
+                <td><span class="signature">hasProceduralBlinkFaceMovement</span></td>
+            
+
+            <td  class="type">
+            
+                
+boolean
+
+
+            
+            </td>
+
+            
+
+            <td class="description last">
+                
+                    
+
+
+    <p><code>true</code> if avatars blink automatically by animating 
+    facial blendshapes, <code>false</code> if automatic blinking is disabled. Set this property to false if you wish to
+    fully control the blink facial blendshapes via the <a href="MyAvatar.html#.setBlendshape">MyAvatar.setBlendshape</a> method.</p>
+
+
+                
+                
+                        
+                            <p><b>Default Value:</b> true </p>
+                        
+                
+                
+            </td>
+        </tr>
+    
+
+        <tr>
+            
+                <td><span class="signature">hasProceduralEyeFaceMovement</span></td>
+            
+
+            <td  class="type">
+            
+                
+boolean
+
+
+            
+            </td>
+
+            
+
+            <td class="description last">
+                
+                    
+
+
+    <p><code>true</code> if the facial blendshapes for an avatar's eyes 
+    adjust automatically as the eyes move, <code>false</code> if this automatic movement is disabled. Set this property 
+    to true to prevent the iris from being obscured by the upper or lower lids. Set this property to <code>false</code> 
+    if you wish to fully control the eye blendshapes via the <a href="MyAvatar.html#.setBlendshape">MyAvatar.setBlendshape</a> method.</p>
+
+
+                
+                
+                        
+                            <p><b>Default Value:</b> true </p>
+                        
+                
+                
+            </td>
+        </tr>
+    
+
+        <tr>
+            
+                <td><span class="signature">hasAudioEnabledFaceMovement</span></td>
+            
+
+            <td  class="type">
+            
+                
+boolean
+
+
+            
+            </td>
+
+            
+
+            <td class="description last">
+                
+                    
+
+
+    <p><code>true</code> if the avatar's mouth blendshapes animate 
+    automatically based on detected microphone input, <code>false</code> if this automatic movement is disabled. Set 
+    this property to false if you wish to fully control the mouth facial blendshapes via the 
+    <a href="MyAvatar.html#.setBlendshape">MyAvatar.setBlendshape</a> method.</p>
+
+
+                
+                
+                        
+                            <p><b>Default Value:</b> true </p>
+                        
+                
+                
+            </td>
+        </tr>
+    
     </tbody>
 </table>
 
